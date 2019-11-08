@@ -1,22 +1,42 @@
-.App {
-  text-align: center;
+.app {
+  padding: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  padding: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  border-radius: 3px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+
+#show-more {
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #09d3ac;
+.show-more-button{
+  padding: 12px;
+  font-size: 16px;
+  font-family: fantasy;
+  border-radius: 10px;
+}
+.container > input[type="checkbox"] {
+  padding: 26px;
+  font-size: 100px;
 }
